@@ -1,0 +1,98 @@
+*{
+    font-family: "Alegreya", serif;
+}
+body{
+    padding: 0px ;
+    margin: 0px;
+}
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.clear-fix{
+    clear: both;
+}
+.navbar{
+    
+    width: 90%;
+    margin: auto;
+}
+.logo{
+    
+    float: left;
+    width: 200px;
+    padding: 10px 50px;
+}
+.logo img{
+    width: 100%;
+}
+.list{
+    
+    float: right;
+    padding: 10px;
+}
+
+.list ul li{
+    display: inline-block;
+    margin: 0px 10px;
+    
+}
+.list ul li a{
+    text-decoration: none;
+    
+    color: white;
+    font-size: 20px;
+}
+
+.list ul li a:hover{
+    color: rgb(233, 233, 102);
+}
+.home-content{
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin: 100px auto;
+}
+.home-content p{
+    font-size: 20px;
+}
+.home-content h1{
+    font-size: 70px;
+    font-weight: 200;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+}
+.btn1{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(185, 167, 112);
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 700px;
+    margin-top: 20px;
+    border: 2px solid  rgb(182, 167, 123);
+    transition: all .5s;
+    margin-right: 10px;
+
+}
+.btn1:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+.btn2{
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 700px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid white;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
