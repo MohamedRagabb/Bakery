@@ -1,5 +1,6 @@
 *{
     font-family: "Alegreya", serif;
+    box-sizing: border-box;
 }
 body{
     padding: 0px ;
@@ -185,6 +186,9 @@ body{
     margin-left: 30px;
 
 }
+.clear{
+    clear: left;
+}
 
 .item img{
     width: 100%;
@@ -192,4 +196,30 @@ body{
 .item h4{
     font-weight: 200;
     font-size: 24px;
+}
+.footer{
+    background-color: #403d38;
+    padding: 20px;
+    
+    
+}
+.con3{
+    width: 90%;
+    margin: auto;
+}
+.footer .card{
+    width: 25%;
+    float: left;
+    color: #fff;
+    padding: 20px;
+    
+}
+.footer .card h4{
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.footer .card p{
+   color: #969696;
+   line-height: 30px;
 }
